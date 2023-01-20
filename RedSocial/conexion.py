@@ -16,6 +16,9 @@ commit =  mydb.commit()
 
 '''
 
-
+cursor.execute("select * from tb_cliente")
+ 
+for x in cursor:
+  print(x)
 '''
 
